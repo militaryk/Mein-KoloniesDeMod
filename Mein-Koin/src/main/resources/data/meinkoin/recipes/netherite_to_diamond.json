@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item" : "meinkoin:mk_netherite_koin",
+        "count" : 1
+      }
+      ],
+  "result":
+  {
+    "item": "meinkoin:mk_diamond_koin",
+    "count": 8
+  }
+}
