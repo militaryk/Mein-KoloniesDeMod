@@ -1,7 +1,14 @@
 {
   "item.meinkoin.koin": "Mein-Koin",
+  "item.meinkoin.mk_gold_koin": "Mein-Koin Gold",
+  "item.meinkoin.mk_diamond_koin": "Mein-Koin Diamond",
+  "item.meinkoin.mk_netherite_koin": "Mein-Koin Netherite",
+
+
 
   "item.meinkoin.wallet": "Mein-Koin Wallet",
+
+
 
   "itemGroup.meinkoin": "Mein-Kolonie",
 

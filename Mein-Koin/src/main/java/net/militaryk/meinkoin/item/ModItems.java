@@ -15,6 +15,12 @@ public class ModItems {
     public static final RegistryObject<Item> MEINKOIN  = ITEMS.register("koin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEINKOIN_TAB).fireResistant().stacksTo(64).rarity(Rarity.UNCOMMON)));
     public static final RegistryObject<Item> WALLET  = ITEMS.register("wallet", () -> new WalletItem(new Item.Properties().tab(ModCreativeModeTab.MEINKOIN_TAB).stacksTo(1).rarity(Rarity.EPIC)));
 
+    public static final RegistryObject<Item> MK_GOLD_KOIN = ITEMS.register("mk_gold_koin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEINKOIN_TAB).fireResistant().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> MK_DIAMOND_KOIN = ITEMS.register("mk_diamond_koin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEINKOIN_TAB).fireResistant().stacksTo(64).rarity(Rarity.UNCOMMON)));
+    public static final RegistryObject<Item> MK_NETHERITE_KOIN = ITEMS.register("mk_netherite_koin", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MEINKOIN_TAB).fireResistant().stacksTo(64).rarity(Rarity.UNCOMMON)));
+
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

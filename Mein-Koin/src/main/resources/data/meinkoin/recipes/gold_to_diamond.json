@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxx",
+    "x x",
+    "xxx"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "meinkoin:mk_gold_koin"
+    }
+  },
+  "result":
+  {
+    "item": "meinkoin:mk_diamond_koin",
+    "count": 1
+  }
+}
